@@ -1,0 +1,14 @@
+[0.146s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=
+\[[38;5;166m\]~/voice_grab/ros2_ws\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description -- -j8 -l8
+[0.215s] [ 50%] [32mBuilding CXX object CMakeFiles/Move.dir/src/MoveTheArm.cpp.o[0m
+[0.391s] [01m[K/home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq_description/src/MoveTheArm.cpp:4:10:[m[K [31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface.h: No such file or directory
+[0.391s]     4 | #include [31m[K<moveit/move_group_interface/move_group_interface.h>[m[K
+[0.391s]       |          [31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.391s] compilation terminated.
+[0.392s] gmake[2]: *** [CMakeFiles/Move.dir/build.make:76: CMakeFiles/Move.dir/src/MoveTheArm.cpp.o] Error 1
+[0.393s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Move.dir/all] Error 2
+[0.393s] gmake: *** [Makefile:146: all] Error 2
+[0.395s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=
+\[[38;5;166m\]~/voice_grab/ros2_ws\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description -- -j8 -l8

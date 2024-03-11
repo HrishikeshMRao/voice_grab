@@ -1,0 +1,43 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (-) JobUnselected: {'identifier': 'ur_robotiq'}
+[0.000155] (-) JobUnselected: {'identifier': 'voice_grabber'}
+[0.000174] (ur_robotiq_description) JobQueued: {'identifier': 'ur_robotiq_description', 'dependencies': OrderedDict()}
+[0.000221] (ur_robotiq_description) JobStarted: {'identifier': 'ur_robotiq_description'}
+[0.099388] (-) TimerEvent: {}
+[0.122143] (ur_robotiq_description) JobProgress: {'identifier': 'ur_robotiq_description', 'progress': 'cmake'}
+[0.122565] (ur_robotiq_description) Command: {'cmd': ['/usr/bin/cmake', '/home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq_description', '-DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description'], 'cwd': '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'fiend'), ('STARSHIP_SHELL', 'bash'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fiend'), ('OLDPWD', '/home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq_description'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '\n\\[\x1b[38;5;166m\\]~/voice_grab/ros2_ws\\[\x1b[0m\\] underwent \\[\x1b[36m\\]4s\\[\x1b[0m\\]\n\\[\x1b[1;38;5;166m\\]➜\\[\x1b[0m\\]'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '56008'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '56868'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fiend/voice_grab/ros2_ws/install:/home/fiend/Navigation_Bot/dev_ws/install:/home/fiend/LineFollowingRobot/ros_ws/install:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fiend'), ('JOURNAL_STREAM', '8:297407'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fiend'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fiend/.local/bin:/home/fiend/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fiend-Lenovo-Yoga-C740-14IML:@/tmp/.ICE-unix/55985,unix/fiend-Lenovo-Yoga-C740-14IML:/tmp/.ICE-unix/55985'), ('INVOCATION_ID', '9005688e639d4856b75f5533d5abdc7a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9S0ZJ2'), ('LS_COLORS', 'di=34:ow=34:tw=34:fi=13:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35:*.rpm=90:*.png=35:*.gif=36:*.jpg=35:*.c=92:*.py=93:*.h=90:*.txt=94:*.doc=104:*.odt=104:*.csv=102:*.xlsx=102:*.xlsm=102:*.rb=31:*.cpp=92:*.sh=92:*.html=96:*.zip=4;33:*.tar.gz=4;33:*.mp4=105:*.mp3=106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b8e71a3b-45e5-48cd-97aa-e78a3c06651e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GCC_COLORS', 'error=31:warning=35:note=36:caret=32:locus=01:quote=01'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/fiend/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '2511229412964716'), ('PYTHONPATH', '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one:/opt/ros/humble')]), 'shell': False}
+[0.199506] (-) TimerEvent: {}
+[0.219282] (ur_robotiq_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.294233] (ur_robotiq_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.299587] (-) TimerEvent: {}
+[0.301513] (ur_robotiq_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.359197] (ur_robotiq_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.366007] (ur_robotiq_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.366349] (ur_robotiq_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.366896] (ur_robotiq_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.369582] (ur_robotiq_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399682] (-) TimerEvent: {}
+[0.432740] (ur_robotiq_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.439583] (ur_robotiq_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.439818] (ur_robotiq_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.440209] (ur_robotiq_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.444904] (ur_robotiq_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499821] (-) TimerEvent: {}
+[0.584380] (ur_robotiq_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.599885] (-) TimerEvent: {}
+[0.673359] (ur_robotiq_description) StdoutLine: {'line': b'-- Found robotiq_description: 0.0.1 (/opt/ros/humble/share/robotiq_description/cmake)\n'}
+[0.674985] (ur_robotiq_description) StdoutLine: {'line': b'-- Found ur_description: 2.1.3 (/opt/ros/humble/share/ur_description/cmake)\n'}
+[0.681080] (ur_robotiq_description) StdoutLine: {'line': b'-- Found moveit: 2.5.5 (/opt/ros/humble/share/moveit/cmake)\n'}
+[0.681356] (ur_robotiq_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[0.681493] (ur_robotiq_description) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'rclcpp' was not found\n"}
+[0.681549] (ur_robotiq_description) StderrLine: {'line': b'  before\n'}
+[0.681599] (ur_robotiq_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.681646] (ur_robotiq_description) StderrLine: {'line': b'  CMakeLists.txt:22 (ament_target_dependencies)\n'}
+[0.681692] (ur_robotiq_description) StderrLine: {'line': b'\n'}
+[0.681737] (ur_robotiq_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.681783] (ur_robotiq_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.681836] (ur_robotiq_description) StdoutLine: {'line': b'See also "/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.684860] (ur_robotiq_description) CommandEnded: {'returncode': 1}
+[0.699965] (-) TimerEvent: {}
+[0.749251] (ur_robotiq_description) JobEnded: {'identifier': 'ur_robotiq_description', 'rc': 1}
+[0.759811] (-) EventReactorShutdown: {}

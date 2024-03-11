@@ -1,0 +1,32 @@
+[0.124s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=
+\[[38;5;166m\]~/voice_grab/ros2_ws\[[0m\] underwent \[[36m\]4s\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq_description -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description
+[0.219s] -- The C compiler identification is GNU 11.4.0
+[0.294s] -- The CXX compiler identification is GNU 11.4.0
+[0.301s] -- Detecting C compiler ABI info
+[0.359s] -- Detecting C compiler ABI info - done
+[0.366s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.366s] -- Detecting C compile features
+[0.367s] -- Detecting C compile features - done
+[0.369s] -- Detecting CXX compiler ABI info
+[0.433s] -- Detecting CXX compiler ABI info - done
+[0.439s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.440s] -- Detecting CXX compile features
+[0.440s] -- Detecting CXX compile features - done
+[0.445s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.584s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.673s] -- Found robotiq_description: 0.0.1 (/opt/ros/humble/share/robotiq_description/cmake)
+[0.675s] -- Found ur_description: 2.1.3 (/opt/ros/humble/share/ur_description/cmake)
+[0.681s] -- Found moveit: 2.5.5 (/opt/ros/humble/share/moveit/cmake)
+[0.681s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.681s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.681s]   before
+[0.681s] Call Stack (most recent call first):
+[0.681s]   CMakeLists.txt:22 (ament_target_dependencies)
+[0.681s] 
+[0.682s] [0m
+[0.682s] -- Configuring incomplete, errors occurred!
+[0.682s] See also "/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description/CMakeFiles/CMakeOutput.log".
+[0.685s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=
+\[[38;5;166m\]~/voice_grab/ros2_ws\[[0m\] underwent \[[36m\]4s\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq_description -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description
