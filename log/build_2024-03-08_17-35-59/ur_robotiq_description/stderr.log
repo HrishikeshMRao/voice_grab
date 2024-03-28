@@ -1,7 +1,0 @@
-[01m[K/home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq_description/src/MoveTheArm.cpp:4:10:[m[K [31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface.h: No such file or directory
-    4 | #include [31m[K<moveit/move_group_interface/move_group_interface.h>[m[K
-      |          [31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/Move.dir/build.make:76: CMakeFiles/Move.dir/src/MoveTheArm.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/Move.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

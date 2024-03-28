@@ -12,6 +12,9 @@
   <exec_depend>robotiq_description</exec_depend>
   <exec_depend>ur_description</exec_depend>
   <exec_depend>moveit</exec_depend>
+  <build_depend>moveit_core</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

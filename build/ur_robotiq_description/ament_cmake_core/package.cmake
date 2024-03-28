@@ -1,7 +1,7 @@
 set(_AMENT_PACKAGE_NAME "ur_robotiq_description")
 set(ur_robotiq_description_VERSION "0.0.0")
 set(ur_robotiq_description_MAINTAINER "fiend <mraohrishikesh@gmail.com>")
-set(ur_robotiq_description_BUILD_DEPENDS )
+set(ur_robotiq_description_BUILD_DEPENDS "moveit_core" "moveit_ros_planning_interface")
 set(ur_robotiq_description_BUILDTOOL_DEPENDS "ament_cmake")
 set(ur_robotiq_description_BUILD_EXPORT_DEPENDS )
 set(ur_robotiq_description_BUILDTOOL_EXPORT_DEPENDS )
