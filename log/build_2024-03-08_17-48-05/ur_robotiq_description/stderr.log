@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:19 (find_package):
-  find_package called with invalid argument "moveit_ros_planning_interface"
-
-[0m
-gmake: *** [Makefile:267: cmake_check_build_system] Error 1

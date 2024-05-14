@@ -1,0 +1,91 @@
+[0.009s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/voice_grabber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/voice_grabber
+[0.052s] -- The C compiler identification is GNU 11.4.0
+[0.099s] -- The CXX compiler identification is GNU 11.4.0
+[0.104s] -- Detecting C compiler ABI info
+[0.167s] -- Detecting C compiler ABI info - done
+[0.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.173s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.176s] -- Detecting CXX compiler ABI info
+[0.239s] -- Detecting CXX compiler ABI info - done
+[0.245s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.245s] -- Detecting CXX compile features
+[0.245s] -- Detecting CXX compile features - done
+[0.247s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.357s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.404s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.465s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.469s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.477s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.491s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.509s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.570s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.573s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.664s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.685s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.727s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.736s] -- Looking for pthread.h
+[0.810s] -- Looking for pthread.h - found
+[0.810s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.873s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.874s] -- Found Threads: TRUE  
+[1.013s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[1.015s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.124s] -- Found audio_common_msgs: 0.3.12 (/usr/local/share/audio_common_msgs/cmake)
+[1.187s] -- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.12") 
+[1.254s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.319s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.319s] -- Configured cppcheck include dirs: /home/fiend/voice_grab/ros2_ws/src/voice_grabber/include
+[1.319s] -- Configured cppcheck exclude dirs and/or files: 
+[1.319s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.320s] -- Added test 'lint_cmake' to check CMake code style
+[1.320s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.321s] -- Added test 'uncrustify' to check C / C++ code style
+[1.321s] -- Configured uncrustify additional arguments: 
+[1.322s] -- Added test 'xmllint' to check XML markup files
+[1.324s] -- Configuring done
+[1.327s] -- Generating done
+[1.329s] -- Build files have been written to: /home/fiend/voice_grab/ros2_ws/build/voice_grabber
+[1.339s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/voice_grabber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/voice_grabber
+[1.340s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/voice_grabber -- -j20 -l20
+[1.385s] Built target ament_cmake_python_symlink_voice_grabber
+[1.561s] running egg_info
+[1.561s] creating voice_grabber.egg-info
+[1.561s] writing voice_grabber.egg-info/PKG-INFO
+[1.562s] writing dependency_links to voice_grabber.egg-info/dependency_links.txt
+[1.562s] writing top-level names to voice_grabber.egg-info/top_level.txt
+[1.562s] writing manifest file 'voice_grabber.egg-info/SOURCES.txt'
+[1.563s] reading manifest file 'voice_grabber.egg-info/SOURCES.txt'
+[1.564s] writing manifest file 'voice_grabber.egg-info/SOURCES.txt'
+[1.588s] Built target ament_cmake_python_build_voice_grabber_egg
+[1.596s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/voice_grabber -- -j20 -l20
+[1.618s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/voice_grabber
+[1.623s] -- Install configuration: ""
+[1.623s] -- Execute custom install script
+[1.623s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/launch/launch_aud.launch.py
+[1.630s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/pythonpath.sh
+[1.637s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/pythonpath.dsv
+[1.643s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber-0.0.0-py3.10.egg-info/PKG-INFO
+[1.649s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.654s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.661s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber-0.0.0-py3.10.egg-info/top_level.txt
+[1.667s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber/__init__.py
+[1.673s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/lib/voice_grabber/Vosk.py
+[1.679s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/ament_index/resource_index/package_run_dependencies/voice_grabber
+[1.685s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/ament_index/resource_index/parent_prefix_path/voice_grabber
+[1.691s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/ament_prefix_path.sh
+[1.697s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/ament_prefix_path.dsv
+[1.703s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/path.sh
+[1.709s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/path.dsv
+[1.719s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/local_setup.bash
+[1.725s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/local_setup.sh
+[1.731s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/local_setup.zsh
+[1.738s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/local_setup.dsv
+[1.744s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.dsv
+[1.750s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/ament_index/resource_index/packages/voice_grabber
+[1.756s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/cmake/voice_grabberConfig.cmake
+[1.762s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/cmake/voice_grabberConfig-version.cmake
+[1.768s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.xml
+[1.798s] Listing '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber'...
+[1.798s] Compiling '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber/__init__.py'...
+[1.803s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/voice_grabber

@@ -1,0 +1,29 @@
+[0.027s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/zed_ros2': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one:/opt/ros/humble PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]master\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/zed_ros2 -- -j8 -l8
+[0.093s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/zed_ros2' returned '0': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one:/opt/ros/humble PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]master\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/zed_ros2 -- -j8 -l8
+[0.132s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/zed_ros2': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one:/opt/ros/humble PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]master\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/zed_ros2
+[0.145s] -- Install configuration: "Release"
+[0.146s] -- Execute custom install script
+[0.147s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/zed_ros2/share/ament_index/resource_index/package_run_dependencies/zed_ros2
+[0.147s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/zed_ros2/share/ament_index/resource_index/parent_prefix_path/zed_ros2
+[0.148s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.sh
+[0.148s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.dsv
+[0.148s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/zed_ros2/share/zed_ros2/environment/path.sh
+[0.149s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/zed_ros2/share/zed_ros2/environment/path.dsv
+[0.149s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.bash
+[0.150s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.sh
+[0.150s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.zsh
+[0.150s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/zed_ros2/share/zed_ros2/local_setup.dsv
+[0.151s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_ros2/share/zed_ros2/package.dsv
+[0.167s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/zed_ros2/share/ament_index/resource_index/packages/zed_ros2
+[0.167s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config.cmake
+[0.168s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config-version.cmake
+[0.168s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/zed_ros2/share/zed_ros2/package.xml
+[0.172s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/zed_ros2' returned '0': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one:/opt/ros/humble PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]master\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/zed_ros2

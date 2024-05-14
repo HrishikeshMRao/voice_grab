@@ -1,0 +1,99 @@
+[0.009s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/zed_components': AMENT_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]master\[[0m\] underwent \[[36m\]9s\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] PYTHONPATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/zed_components
+[0.026s] -- Looking for sgemm_
+[0.095s] -- Looking for sgemm_ - not found
+[0.097s] -- Looking for pthread.h
+[0.155s] -- Looking for pthread.h - found
+[0.156s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.211s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.212s] -- Found Threads: TRUE  
+[0.240s] -- Looking for sgemm_
+[0.324s] -- Looking for sgemm_ - found
+[0.324s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+[0.355s] -- Found CUDA: /usr/local/cuda (found suitable version "12.4", minimum required is "12") 
+[0.531s] -- Found CUDA: /usr/local/cuda (found version "12.4") 
+[0.533s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.666s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.721s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.849s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.856s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.866s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.881s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.903s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.209s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.213s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.306s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.327s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.371s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.316s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.317s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.317s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.709s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.740s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.741s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.742s] -- Configured cppcheck include dirs: /home/fiend/voice_grab/ros2_ws/src/zed-ros2-wrapper/zed_components/src/include;/home/fiend/voice_grab/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include;/home/fiend/voice_grab/ros2_ws/src/zed-ros2-wrapper/zed_components/src/tools/include
+[2.742s] -- Configured cppcheck exclude dirs and/or files: 
+[2.743s] -- Added test 'lint_cmake' to check CMake code style
+[2.744s] -- Added test 'uncrustify' to check C / C++ code style
+[2.744s] -- Configured uncrustify additional arguments: 
+[2.745s] -- Added test 'xmllint' to check XML markup files
+[2.748s] -- Configuring done
+[2.766s] -- Generating done
+[2.769s] -- Build files have been written to: /home/fiend/voice_grab/ros2_ws/build/zed_components
+[2.778s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/zed_components' returned '0': AMENT_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]master\[[0m\] underwent \[[36m\]9s\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] PYTHONPATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/zed-ros2-wrapper/zed_components -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/zed_components
+[2.779s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/zed_components': AMENT_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]master\[[0m\] underwent \[[36m\]9s\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] PYTHONPATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/zed_components -- -j8 -l8
+[2.818s] [ 75%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_tools.cpp.o[0m
+[2.818s] [ 75%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o[0m
+[2.818s] [ 75%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_win_avg.cpp.o[0m
+[3.877s] In file included from [01m[K/home/fiend/voice_grab/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:19[m[K,
+[3.877s]                  from [01m[K/home/fiend/voice_grab/ros2_ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:22[m[K:
+[3.877s] [01m[K/usr/local/zed/include/sl/Fusion.hpp:68:64:[m[K [36m[Knote: [m[K‘[01m[K#pragma message: ~ FUSION SDK is distributed in Early Access ~[m[K’
+[3.877s]    68 | #pragma message("~ FUSION SDK is distributed in Early Access ~"[36m[K)[m[K
+[3.877s]       |                                                                [36m[K^[m[K
+[55.967s] [100%] [32m[1mLinking CXX shared library libzed_camera_component.so[0m
+[56.513s] [100%] Built target zed_camera_component
+[56.523s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/zed_components' returned '0': AMENT_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]master\[[0m\] underwent \[[36m\]9s\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] PYTHONPATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/zed_components -- -j8 -l8
+[56.546s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/zed_components': AMENT_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]master\[[0m\] underwent \[[36m\]9s\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] PYTHONPATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/zed_components
+[56.552s] -- Install configuration: "Release"
+[56.552s] -- Execute custom install script
+[56.553s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/lib/libzed_camera_component.so
+[56.560s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/include/zed_components//cost_traversability.hpp
+[56.567s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/include/zed_components//sl_types.hpp
+[56.574s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/include/zed_components//zed_camera_component.hpp
+[56.580s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/include/zed_components//sl_logging.hpp
+[56.587s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/include/zed_components//sl_tools.hpp
+[56.594s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/include/zed_components//sl_win_avg.hpp
+[56.601s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/include/zed_components//visibility_control.hpp
+[56.608s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/environment/library_path.sh
+[56.615s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/environment/library_path.dsv
+[56.622s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/ament_index/resource_index/package_run_dependencies/zed_components
+[56.630s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/ament_index/resource_index/parent_prefix_path/zed_components
+[56.637s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.sh
+[56.644s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/environment/ament_prefix_path.dsv
+[56.652s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/environment/path.sh
+[56.658s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/environment/path.dsv
+[56.665s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/local_setup.bash
+[56.672s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/local_setup.sh
+[56.679s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/local_setup.zsh
+[56.686s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/local_setup.dsv
+[56.693s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/package.dsv
+[56.701s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/ament_index/resource_index/packages/zed_components
+[56.708s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/ament_index/resource_index/rclcpp_components/zed_components
+[56.715s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_include_directories-extras.cmake
+[56.722s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_libraries-extras.cmake
+[56.730s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_dependencies-extras.cmake
+[56.737s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig.cmake
+[56.744s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig-version.cmake
+[56.751s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/zed_components/share/zed_components/package.xml
+[56.760s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/zed_components' returned '0': AMENT_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one:/opt/ros/humble LD_LIBRARY_PATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces/lib:${LD_LIBRARY_PATH} PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]master\[[0m\] underwent \[[36m\]9s\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] PYTHONPATH=/home/fiend/voice_grab/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/zed_components
