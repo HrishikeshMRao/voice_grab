@@ -1,0 +1,210 @@
+[0.016s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/ur_description': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/ur_description
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.171s] -- The CXX compiler identification is GNU 11.4.0
+[0.179s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.244s] -- Detecting C compile features
+[0.244s] -- Detecting C compile features - done
+[0.248s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.323s] -- Detecting CXX compile features
+[0.323s] -- Detecting CXX compile features - done
+[0.330s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.480s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.546s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.588s] -- Found ament_cmake_pytest: 1.3.8 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.410s] -- Configuring done
+[1.413s] -- Generating done
+[1.414s] -- Build files have been written to: /home/fiend/voice_grab/ros2_ws/build/ur_description
+[1.418s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/ur_description
+[1.419s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/ur_description': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/ur_description -- -j8 -l8
+[1.451s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/ur_description -- -j8 -l8
+[1.470s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/ur_description': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/ur_description
+[1.476s] -- Install configuration: ""
+[1.476s] -- Execute custom install script
+[1.477s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/initial_positions.yaml
+[1.484s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[1.492s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[1.500s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[1.507s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[1.515s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[1.522s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[1.530s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[1.537s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[1.546s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[1.553s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[1.561s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[1.569s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[1.576s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[1.583s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[1.590s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[1.598s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[1.607s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[1.615s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[1.623s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[1.630s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[1.638s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[1.646s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[1.653s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[1.661s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[1.669s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[1.676s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[1.683s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[1.691s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[1.700s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[1.707s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[1.715s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[1.722s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[1.729s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[1.737s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[1.745s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[1.752s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[1.759s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[1.767s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[1.775s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[1.782s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[1.790s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[1.797s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[1.804s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[1.811s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[1.820s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[1.827s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[1.835s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[1.842s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[1.850s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[1.857s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[1.864s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[1.872s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[1.879s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[1.886s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[1.894s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[1.901s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[1.908s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[1.915s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[1.922s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[1.930s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[1.938s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[1.946s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[1.953s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[1.960s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[1.968s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[1.975s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[1.982s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[1.990s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[1.997s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[2.004s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[2.012s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[2.019s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[2.027s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[2.034s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[2.042s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[2.050s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[2.057s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[2.064s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[2.071s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[2.079s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[2.086s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[2.094s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[2.101s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[2.109s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[2.116s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[2.123s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[2.131s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[2.137s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[2.146s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[2.153s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[2.160s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[2.167s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[2.175s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[2.182s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[2.189s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[2.196s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[2.204s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[2.211s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[2.218s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[2.225s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[2.233s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[2.241s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[2.249s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[2.256s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[2.263s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[2.271s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[2.278s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[2.285s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[2.292s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[2.299s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[2.307s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[2.314s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[2.321s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[2.328s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[2.336s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[2.343s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[2.351s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[2.358s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[2.365s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[2.372s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[2.379s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[2.386s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[2.394s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[2.402s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[2.409s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[2.417s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[2.424s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[2.433s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[2.440s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[2.449s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[2.456s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[2.464s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[2.472s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[2.481s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[2.488s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[2.497s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[2.504s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[2.513s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[2.520s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[2.528s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[2.536s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[2.544s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[2.553s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[2.560s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[2.568s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[2.576s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[2.585s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[2.592s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[2.601s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[2.608s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[2.618s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[2.626s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[2.637s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[2.645s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[2.653s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[2.662s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[2.670s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[2.678s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[2.686s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[2.694s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/environment/path.sh
+[2.703s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/environment/path.dsv
+[2.711s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/local_setup.bash
+[2.719s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/local_setup.sh
+[2.726s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/local_setup.zsh
+[2.735s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/local_setup.dsv
+[2.742s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/package.dsv
+[2.751s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[2.758s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[2.768s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[2.775s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/package.xml
+[2.785s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/ur_description

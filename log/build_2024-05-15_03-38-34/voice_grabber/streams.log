@@ -1,0 +1,53 @@
+[0.030s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/voice_grabber -- -j8 -l8
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target Text_Display_Node[0m
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target Speech_Listner_Node[0m
+[0.174s] [  0%] Built target ament_cmake_python_symlink_voice_grabber
+[0.193s] [ 50%] Built target Speech_Listner_Node
+[0.194s] [100%] Built target Text_Display_Node
+[0.904s] running egg_info
+[0.905s] writing voice_grabber.egg-info/PKG-INFO
+[0.905s] writing dependency_links to voice_grabber.egg-info/dependency_links.txt
+[0.906s] writing top-level names to voice_grabber.egg-info/top_level.txt
+[0.911s] reading manifest file 'voice_grabber.egg-info/SOURCES.txt'
+[0.912s] writing manifest file 'voice_grabber.egg-info/SOURCES.txt'
+[0.961s] [100%] Built target ament_cmake_python_build_voice_grabber_egg
+[0.982s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber' returned '0': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/voice_grabber -- -j8 -l8
+[1.038s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/voice_grabber
+[1.051s] -- Install configuration: "Release"
+[1.052s] -- Execute custom install script
+[1.053s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/launch/launch_aud.launch.py
+[1.054s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/lib/voice_grabber/Speech_Listner_Node
+[1.054s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/lib/voice_grabber/Text_Display_Node
+[1.055s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/pythonpath.sh
+[1.056s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/pythonpath.dsv
+[1.056s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber-0.0.0-py3.10.egg-info/PKG-INFO
+[1.057s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.057s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.057s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber-0.0.0-py3.10.egg-info/top_level.txt
+[1.058s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber/__init__.py
+[1.059s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/lib/voice_grabber/Vosk.py
+[1.059s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/ament_index/resource_index/package_run_dependencies/voice_grabber
+[1.060s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/ament_index/resource_index/parent_prefix_path/voice_grabber
+[1.060s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/ament_prefix_path.sh
+[1.061s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/ament_prefix_path.dsv
+[1.061s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/path.sh
+[1.061s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/path.dsv
+[1.062s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/local_setup.bash
+[1.062s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/local_setup.sh
+[1.063s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/local_setup.zsh
+[1.063s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/local_setup.dsv
+[1.063s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.dsv
+[1.081s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/ament_index/resource_index/packages/voice_grabber
+[1.081s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/cmake/voice_grabberConfig.cmake
+[1.082s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/cmake/voice_grabberConfig-version.cmake
+[1.082s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.xml
+[1.152s] Listing '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber'...
+[1.163s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber' returned '0': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/voice_grabber
