@@ -1,0 +1,51 @@
+[0.014s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/voice_grabber -- -j8 -l8
+[0.075s] [100%] Built target Speech_Listner_Node
+[0.075s] [100%] Built target Text_Display_Node
+[0.076s] [100%] Built target ament_cmake_python_symlink_voice_grabber
+[0.381s] running egg_info
+[0.382s] writing voice_grabber.egg-info/PKG-INFO
+[0.382s] writing dependency_links to voice_grabber.egg-info/dependency_links.txt
+[0.382s] writing top-level names to voice_grabber.egg-info/top_level.txt
+[0.384s] reading manifest file 'voice_grabber.egg-info/SOURCES.txt'
+[0.385s] writing manifest file 'voice_grabber.egg-info/SOURCES.txt'
+[0.409s] [100%] Built target ament_cmake_python_build_voice_grabber_egg
+[0.420s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/voice_grabber -- -j8 -l8
+[0.446s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/voice_grabber
+[0.453s] -- Install configuration: "Release"
+[0.454s] -- Execute custom install script
+[0.455s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/launch/launch_aud.launch.py
+[0.455s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/lib/voice_grabber/Speech_Listner_Node
+[0.455s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/lib/voice_grabber/Text_Display_Node
+[0.456s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/pythonpath.sh
+[0.456s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/pythonpath.dsv
+[0.456s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber-0.0.0-py3.10.egg-info/PKG-INFO
+[0.456s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.456s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.456s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber-0.0.0-py3.10.egg-info/top_level.txt
+[0.457s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber/__init__.py
+[0.457s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/lib/voice_grabber/Vosk.py
+[0.457s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/ament_index/resource_index/package_run_dependencies/voice_grabber
+[0.458s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/ament_index/resource_index/parent_prefix_path/voice_grabber
+[0.458s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/ament_prefix_path.sh
+[0.458s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/ament_prefix_path.dsv
+[0.458s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/path.sh
+[0.458s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/environment/path.dsv
+[0.459s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/local_setup.bash
+[0.459s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/local_setup.sh
+[0.459s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/local_setup.zsh
+[0.459s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/local_setup.dsv
+[0.459s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.dsv
+[0.467s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/ament_index/resource_index/packages/voice_grabber
+[0.468s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/cmake/voice_grabberConfig.cmake
+[0.468s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/cmake/voice_grabberConfig-version.cmake
+[0.468s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.xml
+[0.498s] Listing '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/local/lib/python3.10/dist-packages/voice_grabber'...
+[0.505s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/voice_grabber

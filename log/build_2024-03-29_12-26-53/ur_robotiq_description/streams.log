@@ -1,0 +1,52 @@
+[0.017s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description -- -j8 -l8
+[0.092s] [100%] Built target Move
+[0.102s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description -- -j8 -l8
+[0.134s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description
+[0.140s] -- Install configuration: "Release"
+[0.141s] -- Execute custom install script
+[0.141s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/lib/ur_robotiq_description/Move
+[0.142s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/gazebo_stereocam.urdf.xacro
+[0.143s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/materials.urdf.xacro
+[0.143s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/meshes/zed.stl
+[0.143s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/meshes/zed2.stl
+[0.143s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/meshes/zed2i.stl
+[0.144s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/meshes/zedm.stl
+[0.144s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/meshes/zedx.stl
+[0.144s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/meshes/zedxm.stl
+[0.144s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/robotiq_2f_85_urdf.xacro
+[0.144s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/ur3e_robotiq_2f_85_urdf.xacro
+[0.144s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/ur3e_urdf.xacro
+[0.144s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/zed_descr.urdf.xacro
+[0.145s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/zed_macro.urdf.xacro
+[0.145s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/launch/launch_sim.launch.py
+[0.145s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/launch/rsp.launch.py
+[0.146s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/meshes/zed.stl
+[0.146s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/meshes/zed2.stl
+[0.146s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/meshes/zed2i.stl
+[0.146s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/meshes/zedm.stl
+[0.146s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/meshes/zedx.stl
+[0.146s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/meshes/zedxm.stl
+[0.146s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ament_index/resource_index/package_run_dependencies/ur_robotiq_description
+[0.147s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ament_index/resource_index/parent_prefix_path/ur_robotiq_description
+[0.147s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/environment/ament_prefix_path.sh
+[0.147s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/environment/ament_prefix_path.dsv
+[0.147s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/environment/path.sh
+[0.147s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/environment/path.dsv
+[0.147s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/local_setup.bash
+[0.147s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/local_setup.sh
+[0.147s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/local_setup.zsh
+[0.148s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/local_setup.dsv
+[0.148s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.dsv
+[0.156s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ament_index/resource_index/packages/ur_robotiq_description
+[0.157s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/cmake/ur_robotiq_descriptionConfig.cmake
+[0.157s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/cmake/ur_robotiq_descriptionConfig-version.cmake
+[0.157s] -- Up-to-date symlink: /home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.xml
+[0.159s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description

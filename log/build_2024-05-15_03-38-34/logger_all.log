@@ -1,0 +1,390 @@
+[0.434s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args=-DCMAKE_BUILD_TYPE=Release', '--parallel-workers', '8']
+[0.435s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76c3a5353af0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76c3a53534c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76c3a53534c0>>, mixin_verb=('build',))
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.045s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.045s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.045s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.045s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.045s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fiend/voice_grab/ros2_ws'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ignore', 'ignore_ament_install']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore_ament_install'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_pkg']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_pkg'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_meta']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_meta'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ros']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ros'
+[1.098s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Description' with type 'ros.ament_cmake' and name 'ur_description'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq) by extensions ['ignore', 'ignore_ament_install']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq) by extension 'ignore'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq) by extension 'ignore_ament_install'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq) by extensions ['colcon_pkg']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq) by extension 'colcon_pkg'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq) by extensions ['colcon_meta']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq) by extension 'colcon_meta'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq) by extensions ['ros']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq) by extension 'ros'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq) by extensions ['cmake', 'python']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq) by extension 'cmake'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq) by extension 'python'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq) by extensions ['python_setup_py']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq) by extension 'python_setup_py'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq) by extensions ['ignore', 'ignore_ament_install']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq) by extension 'ignore'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq) by extension 'ignore_ament_install'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq) by extensions ['colcon_pkg']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq) by extension 'colcon_pkg'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq) by extensions ['colcon_meta']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq) by extension 'colcon_meta'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq) by extensions ['ros']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq) by extension 'ros'
+[1.103s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_robotiq/ur_robotiq' with type 'ros.ament_cmake' and name 'ur_robotiq'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq_description) by extensions ['ignore', 'ignore_ament_install']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq_description) by extension 'ignore'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq_description) by extension 'ignore_ament_install'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq_description) by extensions ['colcon_pkg']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq_description) by extension 'colcon_pkg'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq_description) by extensions ['colcon_meta']
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq_description) by extension 'colcon_meta'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq_description) by extensions ['ros']
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_robotiq/ur_robotiq_description) by extension 'ros'
+[1.105s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_robotiq/ur_robotiq_description' with type 'ros.ament_cmake' and name 'ur_robotiq_description'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_grabber) by extensions ['ignore', 'ignore_ament_install']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_grabber) by extension 'ignore'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_grabber) by extension 'ignore_ament_install'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_grabber) by extensions ['colcon_pkg']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_grabber) by extension 'colcon_pkg'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_grabber) by extensions ['colcon_meta']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_grabber) by extension 'colcon_meta'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_grabber) by extensions ['ros']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_grabber) by extension 'ros'
+[1.108s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voice_grabber' with type 'ros.ament_cmake' and name 'voice_grabber'
+[1.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.173s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/fiend/voice_grab/ros2_ws/install
+[1.175s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/fiend/Navigation_Bot/dev_ws/install
+[1.179s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/fiend/LineFollowingRobot/ros_ws/install
+[1.181s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/fiend/ROS/practice_codes_ROS2/articubot_one/install
+[1.185s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 439 installed packages in /opt/ros/humble
+[1.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.381s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fiend/voice_grab/ros2_ws/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fiend/voice_grab/ros2_ws/install/ur_description', 'merge_install': False, 'path': '/home/fiend/voice_grab/ros2_ws/src/Universal_Robots_ROS2_Description', 'symlink_install': True, 'test_result_base': None}
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'voice_grabber' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'voice_grabber' build argument 'cmake_target' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'voice_grabber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'voice_grabber' build argument 'cmake_clean_cache' from command line to 'False'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'voice_grabber' build argument 'cmake_clean_first' from command line to 'False'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'voice_grabber' build argument 'cmake_force_configure' from command line to 'False'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'voice_grabber' build argument 'ament_cmake_args' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'voice_grabber' build argument 'catkin_cmake_args' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'voice_grabber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.382s] DEBUG:colcon.colcon_core.verb:Building package 'voice_grabber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fiend/voice_grab/ros2_ws/build/voice_grabber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fiend/voice_grab/ros2_ws/install/voice_grabber', 'merge_install': False, 'path': '/home/fiend/voice_grab/ros2_ws/src/voice_grabber', 'symlink_install': True, 'test_result_base': None}
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq_description' build argument 'cmake_target' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.384s] DEBUG:colcon.colcon_core.verb:Building package 'ur_robotiq_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description', 'merge_install': False, 'path': '/home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq_description', 'symlink_install': True, 'test_result_base': None}
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq' build argument 'cmake_target' from command line to 'None'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.385s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq' build argument 'cmake_clean_cache' from command line to 'False'
+[1.385s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq' build argument 'cmake_clean_first' from command line to 'False'
+[1.385s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq' build argument 'cmake_force_configure' from command line to 'False'
+[1.385s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq' build argument 'ament_cmake_args' from command line to 'None'
+[1.385s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq' build argument 'catkin_cmake_args' from command line to 'None'
+[1.385s] Level 5:colcon.colcon_core.verb:set package 'ur_robotiq' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.385s] DEBUG:colcon.colcon_core.verb:Building package 'ur_robotiq' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq', 'merge_install': False, 'path': '/home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq', 'symlink_install': True, 'test_result_base': None}
+[1.385s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.387s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.387s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fiend/voice_grab/ros2_ws/src/Universal_Robots_ROS2_Description' with build type 'ament_cmake'
+[1.387s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fiend/voice_grab/ros2_ws/src/Universal_Robots_ROS2_Description'
+[1.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.406s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fiend/voice_grab/ros2_ws/src/voice_grabber' with build type 'ament_cmake'
+[1.406s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fiend/voice_grab/ros2_ws/src/voice_grabber'
+[1.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fiend/voice_grab/ros2_ws/build/ur_description': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/ur_description -- -j8 -l8
+[1.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/voice_grabber -- -j8 -l8
+[1.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fiend/voice_grab/ros2_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/ur_description -- -j8 -l8
+[1.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fiend/voice_grab/ros2_ws/build/ur_description': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/ur_description
+[1.738s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[1.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fiend/voice_grab/ros2_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/ur_description
+[1.749s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_description' for CMake module files
+[1.751s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_description' for CMake config files
+[1.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_description/bin'
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_description/lib/python3.10/site-packages'
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_description/bin'
+[1.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/package.ps1'
+[1.762s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/package.dsv'
+[1.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/package.sh'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/package.bash'
+[1.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/package.zsh'
+[1.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fiend/voice_grab/ros2_ws/install/ur_description/share/colcon-core/packages/ur_description)
+[1.807s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[1.808s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_description' for CMake module files
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_description' for CMake config files
+[1.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_description/bin'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.813s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_description/lib/python3.10/site-packages'
+[1.813s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_description/bin'
+[1.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/package.ps1'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/package.dsv'
+[1.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/package.sh'
+[1.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/package.bash'
+[1.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_description/share/ur_description/package.zsh'
+[1.818s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fiend/voice_grab/ros2_ws/install/ur_description/share/colcon-core/packages/ur_description)
+[1.819s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq_description' with build type 'ament_cmake'
+[1.820s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq_description'
+[1.820s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.820s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/ur_description:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description
+[2.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber' returned '0': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/voice_grabber -- -j8 -l8
+[2.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/voice_grabber
+[2.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voice_grabber)
+[2.570s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/voice_grabber' for CMake module files
+[2.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber' returned '0': CMAKE_PREFIX_PATH=/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/voice_grabber
+[2.572s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/voice_grabber' for CMake config files
+[2.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice_grabber', 'cmake_prefix_path')
+[2.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/hook/cmake_prefix_path.ps1'
+[2.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/hook/cmake_prefix_path.dsv'
+[2.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/hook/cmake_prefix_path.sh'
+[2.575s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/lib'
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/bin'
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/lib/pkgconfig/voice_grabber.pc'
+[2.577s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/lib/python3.10/site-packages'
+[2.577s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/bin'
+[2.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.ps1'
+[2.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.dsv'
+[2.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.sh'
+[2.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.bash'
+[2.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.zsh'
+[2.581s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/colcon-core/packages/voice_grabber)
+[2.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voice_grabber)
+[2.636s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/voice_grabber' for CMake module files
+[2.637s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/voice_grabber' for CMake config files
+[2.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice_grabber', 'cmake_prefix_path')
+[2.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/hook/cmake_prefix_path.ps1'
+[2.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/hook/cmake_prefix_path.dsv'
+[2.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/hook/cmake_prefix_path.sh'
+[2.643s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/lib'
+[2.643s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/bin'
+[2.643s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/lib/pkgconfig/voice_grabber.pc'
+[2.644s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/lib/python3.10/site-packages'
+[2.645s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/bin'
+[2.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.ps1'
+[2.647s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.dsv'
+[2.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.sh'
+[2.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.bash'
+[2.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/voice_grabber/package.zsh'
+[2.650s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fiend/voice_grab/ros2_ws/install/voice_grabber/share/colcon-core/packages/voice_grabber)
+[10.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description' returned '0': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/ur_description:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description
+[10.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/ur_description:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description -- -j8 -l8
+[10.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description' returned '0': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/ur_description:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description -- -j8 -l8
+[10.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/ur_description:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description
+[10.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robotiq_description)
+[10.817s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description' for CMake module files
+[10.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description' returned '0': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/ur_description:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/ur_robotiq_description
+[10.820s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description' for CMake config files
+[10.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robotiq_description', 'cmake_prefix_path')
+[10.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/hook/cmake_prefix_path.ps1'
+[10.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/hook/cmake_prefix_path.dsv'
+[10.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/hook/cmake_prefix_path.sh'
+[10.823s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/lib'
+[10.823s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/bin'
+[10.823s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/lib/pkgconfig/ur_robotiq_description.pc'
+[10.824s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/lib/python3.10/site-packages'
+[10.824s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/bin'
+[10.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.ps1'
+[10.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.dsv'
+[10.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.sh'
+[10.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.bash'
+[10.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.zsh'
+[10.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/colcon-core/packages/ur_robotiq_description)
+[10.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robotiq_description)
+[10.877s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description' for CMake module files
+[10.878s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description' for CMake config files
+[10.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robotiq_description', 'cmake_prefix_path')
+[10.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/hook/cmake_prefix_path.ps1'
+[10.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/hook/cmake_prefix_path.dsv'
+[10.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/hook/cmake_prefix_path.sh'
+[10.882s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/lib'
+[10.882s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/bin'
+[10.883s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/lib/pkgconfig/ur_robotiq_description.pc'
+[10.883s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/lib/python3.10/site-packages'
+[10.884s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/bin'
+[10.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.ps1'
+[10.886s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.dsv'
+[10.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.sh'
+[10.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.bash'
+[10.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.zsh'
+[10.890s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description/share/colcon-core/packages/ur_robotiq_description)
+[10.891s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq' with build type 'ament_cmake'
+[10.891s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq'
+[10.892s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.892s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/ur_robotiq
+[11.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq' returned '0': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/ur_robotiq
+[11.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/ur_robotiq -- -j8 -l8
+[11.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq' returned '0': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/ur_robotiq -- -j8 -l8
+[11.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/ur_robotiq
+[11.558s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robotiq)
+[11.558s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq' for CMake module files
+[11.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fiend/voice_grab/ros2_ws/build/ur_robotiq' returned '0': CMAKE_PREFIX_PATH=/home/fiend/voice_grab/ros2_ws/install/ur_robotiq_description:/home/fiend/voice_grab/ros2_ws/install/ur_description:/home/fiend/Navigation_Bot/dev_ws/install/navigation_bot:/home/fiend/voice_grab/ros2_ws/install/zed_ros2:/home/fiend/voice_grab/ros2_ws/install/zed_wrapper:/home/fiend/voice_grab/ros2_ws/install/zed_components:/home/fiend/voice_grab/ros2_ws/install/zed_interfaces:/home/fiend/voice_grab/ros2_ws/install/voice_grabber:/home/fiend/voice_grab/ros2_ws/install/ur_robotiq:/opt/ros/humble:/home/fiend/LineFollowingRobot/ros_ws/install/prius_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/line_bhakt:/home/fiend/LineFollowingRobot/ros_ws/install/launches:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_nav:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_msgs:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_map:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_gazebo:/home/fiend/LineFollowingRobot/ros_ws/install/autocar_description:/home/fiend/ROS/practice_codes_ROS2/articubot_one/install/articubot_one PS1=
+\[[38;5;156m\]\[[0m\]\[[38;5;166m\]ros2_ws\[[0m\]\[[38;5;166m\]\[[0m\] on \[[38;5;162m\] \[[0m\]\[[38;5;162m\]main\[[0m\]
+\[[1;38;5;166m\]➜\[[0m\] /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/ur_robotiq
+[11.560s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq' for CMake config files
+[11.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robotiq', 'cmake_prefix_path')
+[11.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/hook/cmake_prefix_path.ps1'
+[11.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/hook/cmake_prefix_path.dsv'
+[11.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/hook/cmake_prefix_path.sh'
+[11.564s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/bin'
+[11.564s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/lib/pkgconfig/ur_robotiq.pc'
+[11.565s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/lib/python3.10/site-packages'
+[11.565s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/bin'
+[11.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/package.ps1'
+[11.566s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/package.dsv'
+[11.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/package.sh'
+[11.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/package.bash'
+[11.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/package.zsh'
+[11.569s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/colcon-core/packages/ur_robotiq)
+[11.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robotiq)
+[11.608s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq' for CMake module files
+[11.609s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq' for CMake config files
+[11.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robotiq', 'cmake_prefix_path')
+[11.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/hook/cmake_prefix_path.ps1'
+[11.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/hook/cmake_prefix_path.dsv'
+[11.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/hook/cmake_prefix_path.sh'
+[11.612s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/bin'
+[11.613s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/lib/pkgconfig/ur_robotiq.pc'
+[11.613s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/lib/python3.10/site-packages'
+[11.614s] Level 1:colcon.colcon_core.environment:checking '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/bin'
+[11.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/package.ps1'
+[11.615s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/package.dsv'
+[11.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/package.sh'
+[11.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/package.bash'
+[11.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/ur_robotiq/package.zsh'
+[11.618s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fiend/voice_grab/ros2_ws/install/ur_robotiq/share/colcon-core/packages/ur_robotiq)
+[11.619s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.619s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.620s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.620s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.634s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.687s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.688s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fiend/voice_grab/ros2_ws/install/local_setup.ps1'
+[11.691s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fiend/voice_grab/ros2_ws/install/_local_setup_util_ps1.py'
+[11.696s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fiend/voice_grab/ros2_ws/install/setup.ps1'
+[11.701s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fiend/voice_grab/ros2_ws/install/local_setup.sh'
+[11.702s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fiend/voice_grab/ros2_ws/install/_local_setup_util_sh.py'
+[11.703s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fiend/voice_grab/ros2_ws/install/setup.sh'
+[11.707s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fiend/voice_grab/ros2_ws/install/local_setup.bash'
+[11.708s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fiend/voice_grab/ros2_ws/install/setup.bash'
+[11.713s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fiend/voice_grab/ros2_ws/install/local_setup.zsh'
+[11.715s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fiend/voice_grab/ros2_ws/install/setup.zsh'
