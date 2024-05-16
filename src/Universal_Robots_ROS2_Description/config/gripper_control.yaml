@@ -1,8 +1,19 @@
-gripper_action_controller:
+controller_manager:
   ros__parameters:
-    type: position_controllers/GripperActionController # Name of the controller type
-    joint: robotiq_85_left_knuckle_joint                     # The joint you are controlling
-    goal_tolerance: 0.1                                      # Goal tolerance in radians
-    stall_position_threshold: 0.05 # Tune to fit your robot  # Arm is stalling if position (radians) hasn't moved over the threshold
-    stall_timeout: 0.5                                       # Arm has stalled if timeout (seconds) is reached
-    action_monitor_rate: 10    
+    update_rate: 50  # Hz
+
+    gripper_controller:
+      type: position_controllers/GripperActionController
+    
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+gripper_controller:
+  ros__parameters:
+    joints:
+      - robotiq_85_left_knuckle_joint
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity

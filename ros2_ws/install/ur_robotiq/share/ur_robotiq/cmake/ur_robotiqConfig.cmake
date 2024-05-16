@@ -1,1 +1,0 @@
-/home/fiend/voice_grab/ros2_ws/build/ur_robotiq/ament_cmake_core/ur_robotiqConfig.cmake

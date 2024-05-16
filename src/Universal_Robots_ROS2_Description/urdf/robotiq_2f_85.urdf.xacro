@@ -21,7 +21,12 @@
         com_port:=/dev/ttyUSB0">
 
         <!-- ros2 control include -->
-        <xacro:include filename="$(find robotiq_description)/urdf/robotiq_gripper.ros2_control.xacro" />
+        <xacro:include filename="$(find ur_description)/urdf/robotiq_gripper.ros2_control.xacro" />
+
+        <!-- if we are simulating or directly communicating with the gripper we need a ros2 control instance -->
+        <xacro:if value="${include_ros2_control}">
+            <xacro:robotiq_gripper_ros2_control name="${name}"/>
+        </xacro:if>
 
         <xacro:if value="${sim_gazebo}">
             <!-- Gazebo plugins -->
@@ -31,17 +36,6 @@
                     <parameters>$(find ur_description)/config/gripper_control.yaml</parameters>
                 </plugin>
             </gazebo>
-        </xacro:if>
-
-        <!-- if we are simulating or directly communicating with the gripper we need a ros2 control instance -->
-        <xacro:if value="${include_ros2_control}">
-            <xacro:robotiq_gripper_ros2_control
-                name="${name}" prefix="${prefix}"
-                sim_ignition="${sim_ignition}"
-                sim_isaac="${sim_isaac}"
-                use_fake_hardware="${use_fake_hardware}"
-                fake_sensor_commands="${fake_sensor_commands}"
-                com_port="${com_port}"/>
         </xacro:if>
 
         <link name="${prefix}robotiq_85_base_link">

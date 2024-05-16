@@ -16,7 +16,6 @@ find_package(ament_cmake_python REQUIRED)
 find_package(std_msgs)  
 find_package(sensor_msgs)
 find_package(audio_common_msgs REQUIRED)
-find_package(portaudio REQUIRED)
 find_package(PythonInterp REQUIRED)
 
 # uncomment the following section in order to fill in
@@ -26,27 +25,9 @@ include_directories(include)
 include_directories("${PROJECT_SOURCE_DIR}")
 include_directories(${PORTAUDIO_INCLUDE_DIRS})
 
-# C++ executables
-set(SOURCES2 /home/fiend/voice_grab/ros2_ws/src/voice_grabber/src/SpeechListner.cpp)
-set(SOURCES3 /home/fiend/voice_grab/ros2_ws/src/voice_grabber/src/TextDisplay.cpp)
-
-add_executable(Speech_Listner_Node ${SOURCES2})
-ament_target_dependencies(Speech_Listner_Node rclcpp std_msgs sensor_msgs audio_common_msgs)
-target_include_directories(Speech_Listner_Node PRIVATE /opt/portaudio/src/common/)
-target_link_libraries(Speech_Listner_Node portaudio)
-
-add_executable(Text_Display_Node ${SOURCES3})
-ament_target_dependencies(Text_Display_Node rclcpp std_msgs sensor_msgs audio_common_msgs)
-target_link_libraries(Text_Display_Node)
-
 install(DIRECTORY 
     launch
     DESTINATION share/${PROJECT_NAME}
-)
-
-install(TARGETS
-    Speech_Listner_Node Text_Display_Node
-    DESTINATION lib/${PROJECT_NAME}
 )
 
 # Python Executables

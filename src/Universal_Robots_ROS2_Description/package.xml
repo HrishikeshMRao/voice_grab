@@ -10,6 +10,7 @@
   <author>Hrishikesh M Rao</author>
 
   <maintainer email="mraohrishikesh@gmail.com">Hrishikesh M Rao</maintainer>
+  <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

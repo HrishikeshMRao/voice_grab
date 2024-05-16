@@ -164,13 +164,13 @@ def generate_launch_description():
         PythonLaunchDescriptionSource(
                 os.path.join(get_package_share_directory("gazebo_ros"), "launch", "gzserver.launch.py")
         ),
-        launch_arguments={"verbose": "true","world": world}.items(), # "extra_gazebo_args": "-s libgazebo_ros_p3d.so"
+        launch_arguments={"verbose": "true"}.items(), # "extra_gazebo_args": "-s libgazebo_ros_p3d.so"
     )
     gzserver = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
                 os.path.join(get_package_share_directory("gazebo_ros"), "launch", "gzclient.launch.py")
         ),
-        launch_arguments={"verbose": "false","world": world}.items(),
+        launch_arguments={"verbose": "true"}.items(),
     )
 
     # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.
