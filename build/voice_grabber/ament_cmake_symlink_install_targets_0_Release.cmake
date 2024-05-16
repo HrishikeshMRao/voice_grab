@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/fiend/voice_grab/ros2_ws/build/voice_grabber/Speech_Listner_Node" "/home/fiend/voice_grab/ros2_ws/build/voice_grabber/Text_Display_Node" "TARGETS" "Speech_Listner_Node" "Text_Display_Node" "DESTINATION" "lib/voice_grabber")
