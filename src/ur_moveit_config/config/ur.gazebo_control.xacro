@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="ur_gazebo_control" params="name initial_positions_file">
+        <xacro:property name="initial_positions" value="${load_yaml(initial_positions_file)['initial_positions']}"/>
+
+        <ros2_control name="${name}" type="system">
+          <hardware>
+            <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+          </hardware>
+          <joint name="shoulder_pan_joint">
+            <command_interface name="position">
+              <param name="min">{-2*pi}</param>
+              <param name="max">{2*pi}</param>
+            </command_interface>
+            <command_interface name="velocity">
+              <param name="min">-3.15</param>
+              <param name="max">3.15</param>
+            </command_interface>
+            <state_interface name="position">
+              <!-- initial position for the FakeSystem and simulation -->
+              <param name="initial_value">${initial_positions['shoulder_pan_joint']}</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+            <state_interface name="effort"/>
+          </joint>
+          <joint name="shoulder_lift_joint">
+            <command_interface name="position">
+              <param name="min">{-2*pi}</param>
+              <param name="max">{2*pi}</param>
+            </command_interface>
+            <command_interface name="velocity">
+              <param name="min">-3.15</param>
+              <param name="max">3.15</param>
+            </command_interface>
+            <state_interface name="position">
+              <!-- initial position for the FakeSystem and simulation -->
+              <param name="initial_value">${initial_positions['shoulder_lift_joint']}</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+            <state_interface name="effort"/>
+          </joint>
+          <joint name="elbow_joint">
+            <command_interface name="position">
+              <param name="min">{-pi}</param>
+              <param name="max">{pi}</param>
+            </command_interface>
+            <command_interface name="velocity">
+              <param name="min">-3.15</param>
+              <param name="max">3.15</param>
+            </command_interface>
+            <state_interface name="position">
+              <!-- initial position for the FakeSystem and simulation -->
+              <param name="initial_value">${initial_positions['elbow_joint']}</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+            <state_interface name="effort"/>
+          </joint>
+          <joint name="wrist_1_joint">
+            <command_interface name="position">
+              <param name="min">{-2*pi}</param>
+              <param name="max">{2*pi}</param>
+            </command_interface>
+            <command_interface name="velocity">
+              <param name="min">-3.2</param>
+              <param name="max">3.2</param>
+            </command_interface>
+            <state_interface name="position">
+              <!-- initial position for the FakeSystem and simulation -->
+              <param name="initial_value">${initial_positions['wrist_1_joint']}</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+            <state_interface name="effort"/>
+          </joint>
+          <joint name="wrist_2_joint">
+            <command_interface name="position">
+              <param name="min">{-2*pi}</param>
+              <param name="max">{2*pi}</param>
+            </command_interface>
+            <command_interface name="velocity">
+              <param name="min">-3.2</param>
+              <param name="max">3.2</param>
+            </command_interface>
+            <state_interface name="position">
+              <!-- initial position for the FakeSystem and simulation -->
+              <param name="initial_value">${initial_positions['wrist_2_joint']}</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+            <state_interface name="effort"/>
+          </joint>
+          <joint name="wrist_3_joint">
+            <command_interface name="position">
+              <param name="min">{-2*pi}</param>
+              <param name="max">{2*pi}</param>
+            </command_interface>
+            <command_interface name="velocity">
+              <param name="min">-3.2</param>
+              <param name="max">3.2</param>
+            </command_interface>
+            <state_interface name="position">
+              <!-- initial position for the FakeSystem and simulation -->
+              <param name="initial_value">${initial_positions['wrist_3_joint']}</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+            <state_interface name="effort"/>
+          </joint>
+          <joint name="robotiq_85_left_knuckle_joint">
+            <command_interface name="position"/>
+            <state_interface name="position">
+              <param name="initial_value">${initial_positions['robotiq_85_left_knuckle_joint']}</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+            <state_interface name="position"/>
+            <state_interface name="effort"/>
+          </joint>
+          <joint name="robotiq_85_right_knuckle_joint">
+            <param name="mimic">robotiq_85_left_knuckle_joint</param>
+            <param name="multiplier">-1</param>
+            <command_interface name="position"/>
+            <state_interface name="velocity"/>
+            <state_interface name="position"/>
+            <state_interface name="effort"/>
+          </joint>
+          <joint name="robotiq_85_left_inner_knuckle_joint">
+            <param name="mimic">robotiq_85_left_knuckle_joint</param>
+            <param name="multiplier">1</param>
+            <command_interface name="position"/>
+            <state_interface name="velocity"/>
+            <state_interface name="position"/>
+            <state_interface name="effort"/>
+          </joint>
+          <joint name="robotiq_85_right_inner_knuckle_joint">
+            <param name="mimic">robotiq_85_left_knuckle_joint</param>
+            <param name="multiplier">-1</param>
+            <command_interface name="position"/>
+            <state_interface name="velocity"/>
+            <state_interface name="position"/>
+            <state_interface name="effort"/>
+          </joint>
+          <joint name="robotiq_85_left_finger_tip_joint">
+            <param name="mimic">robotiq_85_left_knuckle_joint</param>
+            <param name="multiplier">-1</param>
+            <command_interface name="position"/>
+            <state_interface name="velocity"/>
+            <state_interface name="position"/>
+            <state_interface name="effort"/>
+          </joint>
+          <joint name="robotiq_85_right_finger_tip_joint">
+            <param name="mimic">robotiq_85_left_knuckle_joint</param>
+            <param name="multiplier">1</param>
+            <command_interface name="position"/>
+            <state_interface name="velocity"/>
+            <state_interface name="position"/>
+            <state_interface name="effort"/>
+          </joint>
+        </ros2_control>
+
+        <gazebo reference="realsense_link">
+          <self_collide>0</self_collide>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+          <gravity>1</gravity>
+          <mu>1</mu>
+          <mu2>1</mu2>
+          <fdir1>0 0 0</fdir1>
+          <slip1>0</slip1>
+          <slip2>0</slip2>
+          <kp>1e+13</kp>
+          <kd>1</kd>
+          <max_vel>0.01</max_vel>
+          <min_depth>0</min_depth>
+          <sensor name="realsensecolor" type="camera">
+            <camera name="realsense">
+              <horizontal_fov>1.2112585008840648</horizontal_fov>
+              <image>
+                <width>1920</width>
+                <height>1080</height>
+                <format>RGB_INT8</format>
+              </image>
+              <clip>
+                <near>0.1</near>
+                <far>100</far>
+              </clip>
+              <noise>
+                <type>gaussian</type>
+                <mean>0.0</mean>
+                <stddev>0.007</stddev>
+              </noise>
+            </camera>
+            <always_on>1</always_on>
+            <update_rate>30</update_rate>
+            <visualize>0</visualize>
+          </sensor>
+          <sensor name="realsenseired1" type="camera">
+            <camera name="realsense">
+              <horizontal_fov>1.4870205226991688</horizontal_fov>
+              <image>
+                <width>1280</width>
+                <height>720</height>
+                <format>L_INT8</format>
+              </image>
+              <clip>
+                <near>0.1</near>
+                <far>100</far>
+              </clip>
+              <noise>
+                <type>gaussian</type>
+                <mean>0.0</mean>
+                <stddev>0.05</stddev>
+              </noise>
+            </camera>
+            <always_on>1</always_on>
+            <update_rate>90</update_rate>
+            <visualize>0</visualize>
+          </sensor>
+          <sensor name="realsenseired2" type="camera">
+            <camera name="realsense">
+              <horizontal_fov>1.4870205226991688</horizontal_fov>
+              <image>
+                <width>1280</width>
+                <height>720</height>
+                <format>L_INT8</format>
+              </image>
+              <clip>
+                <near>0.1</near>
+                <far>100</far>
+              </clip>
+              <noise>
+                <type>gaussian</type>
+                <mean>0.0</mean>
+                <stddev>0.05</stddev>
+              </noise>
+            </camera>
+            <always_on>1</always_on>
+            <update_rate>90</update_rate>
+            <visualize>0</visualize>
+          </sensor>
+          <sensor name="realsensedepth" type="depth">
+            <camera name="realsense">
+              <horizontal_fov>1.4870205226991688</horizontal_fov>
+              <image>
+                <width>1280</width>
+                <height>720</height>
+              </image>
+              <clip>
+                <near>0.1</near>
+                <far>100</far>
+              </clip>
+              <noise>
+                <type>gaussian</type>
+                <mean>0.0</mean>
+                <stddev>0.100</stddev>
+              </noise>
+            </camera>
+            <always_on>1</always_on>
+            <update_rate>90</update_rate>
+            <visualize>1</visualize>
+            <plugin filename="libgazebo_ros_camera.so" name="realsense_controller">
+              <baseline>0.2</baseline>
+              <alwaysOn>true</alwaysOn>
+              <updateRate>1.0</updateRate>
+              <cameraName>realsense_ir</cameraName>
+              <imageTopicName>/realsense/color/image_raw</imageTopicName>
+              <cameraInfoTopicName>/realsensecolor/camera_info</cameraInfoTopicName>
+              <depthImageTopicName>/realsense/depth/image_raw</depthImageTopicName>
+              <depthImageInfoTopicName>/realsense/depth/camera_info</depthImageInfoTopicName>
+              <pointCloudTopicName>/realsense/depth/points</pointCloudTopicName>
+              <frameName>realsense_link_optical</frameName>
+              <pointCloudCutoff>0.5</pointCloudCutoff>
+              <pointCloudCutoffMax>3.0</pointCloudCutoffMax>
+              <distortionK1>0.00000001</distortionK1>
+              <distortionK2>0.00000001</distortionK2>
+              <distortionK3>0.00000001</distortionK3>
+              <distortionT1>0.00000001</distortionT1>
+              <distortionT2>0.00000001</distortionT2>
+              <CxPrime>0</CxPrime>
+              <Cx>0</Cx>
+              <Cy>0</Cy>
+              <focalLength>0</focalLength>
+              <hackBaseline>0</hackBaseline>
+            </plugin>
+          </sensor>
+        </gazebo>
+
+        <gazebo reference="shoulder_link">
+          <selfCollide>true</selfCollide>
+        </gazebo>
+        <gazebo reference="upper_arm_link">
+          <selfCollide>true</selfCollide>
+        </gazebo>
+        <gazebo reference="forearm_link">
+          <selfCollide>true</selfCollide>
+        </gazebo>
+        <gazebo reference="wrist_1_link">
+          <selfCollide>true</selfCollide>
+        </gazebo>
+        <gazebo reference="wrist_3_link">
+          <selfCollide>true</selfCollide>
+        </gazebo>
+        <gazebo reference="wrist_2_link">
+          <selfCollide>true</selfCollide>
+        </gazebo>
+
+        <gazebo reference="world">
+        </gazebo>
+        <gazebo>
+          <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+            <parameters>$(find ur_moveit_config)/config/ros2_controllers.yaml</parameters>
+          </plugin>
+        </gazebo>
+
+    </xacro:macro>
+</robot>

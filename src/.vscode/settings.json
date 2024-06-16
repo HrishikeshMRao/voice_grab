@@ -88,5 +88,5 @@
         "typeinfo": "cpp",
         "variant": "cpp"
     },
-    "cmake.sourceDirectory": "/home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq"
+    "cmake.sourceDirectory": "/home/fiend/voice_grab/ros2_ws/src/ur_description"
 }
