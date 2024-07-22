@@ -5,7 +5,9 @@
    <!-- import main macro -->
    
    <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro"/> 
-   <xacro:include filename="$(find ur_description)/urdf/robotiq_2f_85.urdf.xacro"/>
+   <!-- <xacro:include filename="$(find ur_description)/urdf/robotiq_2f_85.urdf.xacro"/> -->
+   <!-- <xacro:include filename="$(find robotiq_2f_85_gripper_visualization)/urdf/robotiq_arg2f_85_model.xacro"/> -->
+   <xacro:include filename="$(find robotiq_2f_140_gripper_visualization)/urdf/robotiq_arg2f_140_model.xacro"/>
    <xacro:include filename="$(find ur_description)/urdf/real_descr.urdf.xacro"/> 
    <!-- <xacro:include filename="$(find ur_description)/urdf/zed_descr.urdf.xacro"/>  -->
 

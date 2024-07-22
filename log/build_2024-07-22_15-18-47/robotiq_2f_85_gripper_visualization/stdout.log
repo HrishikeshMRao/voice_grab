@@ -1,0 +1,41 @@
+-- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fiend/voice_grab/ros2_ws/build/robotiq_2f_85_gripper_visualization
+-- Install configuration: ""
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/collision
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/collision/robotiq_arg2f_85_inner_finger.dae
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/collision/robotiq_arg2f_85_inner_knuckle.dae
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/collision/robotiq_arg2f_85_base_link.stl
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/collision/robotiq_arg2f_base_link.stl
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/collision/robotiq_arg2f_85_outer_finger.dae
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/collision/robotiq_arg2f_85_outer_knuckle.dae
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual/robotiq_arg2f_85_pad.dae
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual/robotiq_arg2f_85_inner_finger.dae
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual/robotiq_arg2f_85_inner_knuckle.dae
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual/robotiq_arg2f_85_outer_finger.dae
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual/robotiq_arg2f_85_outer_knuckle.dae
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual/robotiq_arg2f_85_base_link.dae
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual/robotiq_gripper_coupling.stl
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/urdf
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/urdf/robotiq_arg2f_transmission.xacro
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/urdf/robotiq_arg2f.xacro
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/urdf/robotiq_arg2f_85_model_macro.xacro
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/urdf/robotiq_arg2f_85_model.xacro
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/ament_index/resource_index/package_run_dependencies/robotiq_2f_85_gripper_visualization
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/ament_index/resource_index/parent_prefix_path/robotiq_2f_85_gripper_visualization
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/environment/ament_prefix_path.sh
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/environment/ament_prefix_path.dsv
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/environment/path.sh
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/environment/path.dsv
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/local_setup.bash
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/local_setup.sh
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/local_setup.zsh
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/local_setup.dsv
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/package.dsv
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/ament_index/resource_index/packages/robotiq_2f_85_gripper_visualization
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/cmake/robotiq_2f_85_gripper_visualizationConfig.cmake
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/cmake/robotiq_2f_85_gripper_visualizationConfig-version.cmake
+-- Installing: /home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/package.xml

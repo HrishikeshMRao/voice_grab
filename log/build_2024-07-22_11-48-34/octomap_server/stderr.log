@@ -1,0 +1,9 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+In file included from [01m[K/home/fiend/voice_grab/ros2_ws/src/octomap_mapping/octomap_server/src/octomap_server.cpp:29[m[K:
+[01m[K/home/fiend/voice_grab/ros2_ws/src/octomap_mapping/octomap_server/include/octomap_server/octomap_server.hpp:54:10:[m[K [01;31m[Kfatal error: [m[Kpcl_ros/transforms.hpp: No such file or directory
+   54 | #include [01;31m[K"pcl_ros/transforms.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/octomap_server.dir/build.make:76: CMakeFiles/octomap_server.dir/src/octomap_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/octomap_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

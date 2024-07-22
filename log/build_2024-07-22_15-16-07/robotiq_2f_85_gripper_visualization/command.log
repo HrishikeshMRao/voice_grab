@@ -1,0 +1,1 @@
+Invoking command in '/home/fiend/voice_grab/ros2_ws/build/robotiq_2f_85_gripper_visualization': /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/robotiq/robotiq_2f_85_gripper_visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization

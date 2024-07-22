@@ -1,0 +1,82 @@
+[0.035s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/octomap_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fiend/ws_moveit2/install/moveit_configs_utils:/home/fiend/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/octomap_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/octomap_ros
+[0.095s] -- The C compiler identification is GNU 11.4.0
+[0.149s] -- The CXX compiler identification is GNU 11.4.0
+[0.155s] -- Detecting C compiler ABI info
+[0.236s] -- Detecting C compiler ABI info - done
+[0.242s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.242s] -- Detecting C compile features
+[0.243s] -- Detecting C compile features - done
+[0.245s] -- Detecting CXX compiler ABI info
+[0.339s] -- Detecting CXX compiler ABI info - done
+[0.346s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.346s] -- Detecting CXX compile features
+[0.346s] -- Detecting CXX compile features - done
+[0.352s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.508s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.563s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.775s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.786s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.799s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.846s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.108s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.161s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.163s] -- Looking for pthread.h
+[1.267s] -- Looking for pthread.h - found
+[1.267s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.368s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.369s] -- Found Threads: TRUE  
+[1.374s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.377s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.377s] -- Configured cppcheck include dirs: /home/fiend/voice_grab/ros2_ws/src/octomap_ros/include
+[1.377s] -- Configured cppcheck exclude dirs and/or files: 
+[1.380s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.380s] -- Configured cpplint exclude dirs and/or files: 
+[1.381s] -- Added test 'lint_cmake' to check CMake code style
+[1.384s] -- Added test 'uncrustify' to check C / C++ code style
+[1.384s] -- Configured uncrustify additional arguments: 
+[1.385s] -- Added test 'xmllint' to check XML markup files
+[1.389s] -- Configuring done
+[1.399s] -- Generating done
+[1.400s] -- Build files have been written to: /home/fiend/voice_grab/ros2_ws/build/octomap_ros
+[1.410s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/octomap_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fiend/ws_moveit2/install/moveit_configs_utils:/home/fiend/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/octomap_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/octomap_ros
+[1.412s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/octomap_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fiend/ws_moveit2/install/moveit_configs_utils:/home/fiend/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/octomap_ros -- -j20 -l20
+[1.493s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.496s] [ 25%] [32mBuilding CXX object CMakeFiles/octomap_ros.dir/src/conversions.cpp.o[0m
+[1.496s] [ 37%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.996s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.047s] [ 50%] Built target gtest_main
+[2.227s] [ 62%] [32m[1mLinking CXX shared library liboctomap_ros.so[0m
+[2.330s] [ 62%] Built target octomap_ros
+[3.821s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.902s] [ 75%] Built target gtest
+[3.942s] [ 87%] [32mBuilding CXX object CMakeFiles/test_octomap_ros.dir/test/test_conversions.cpp.o[0m
+[5.026s] [100%] [32m[1mLinking CXX executable test_octomap_ros[0m
+[5.192s] [100%] Built target test_octomap_ros
+[5.205s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/octomap_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fiend/ws_moveit2/install/moveit_configs_utils:/home/fiend/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/octomap_ros -- -j20 -l20
+[5.272s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/octomap_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fiend/ws_moveit2/install/moveit_configs_utils:/home/fiend/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/octomap_ros
+[5.282s] -- Install configuration: ""
+[5.283s] -- Execute custom install script
+[5.283s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/include/octomap_ros/conversions.hpp
+[5.294s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/environment/library_path.sh
+[5.306s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/environment/library_path.dsv
+[5.317s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/lib/liboctomap_ros.so
+[5.328s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/ament_index/resource_index/package_run_dependencies/octomap_ros
+[5.342s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/ament_index/resource_index/parent_prefix_path/octomap_ros
+[5.352s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/environment/ament_prefix_path.sh
+[5.362s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/environment/ament_prefix_path.dsv
+[5.373s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/environment/path.sh
+[5.383s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/environment/path.dsv
+[5.394s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/local_setup.bash
+[5.404s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/local_setup.sh
+[5.414s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/local_setup.zsh
+[5.424s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/local_setup.dsv
+[5.440s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/package.dsv
+[5.451s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/ament_index/resource_index/packages/octomap_ros
+[5.461s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.471s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.480s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[5.491s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/cmake/octomap_rosConfig.cmake
+[5.501s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/cmake/octomap_rosConfig-version.cmake
+[5.512s] -- Symlinking: /home/fiend/voice_grab/ros2_ws/install/octomap_ros/share/octomap_ros/package.xml
+[5.526s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/octomap_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fiend/ws_moveit2/install/moveit_configs_utils:/home/fiend/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fiend/voice_grab/ros2_ws/build/octomap_ros

@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target octomap_server_multilayer_node[0m
+[35m[1mConsolidate compiler generated dependencies of target octomap_server_static_node[0m
+[35m[1mConsolidate compiler generated dependencies of target octomap_server_node[0m
+[35m[1mConsolidate compiler generated dependencies of target tracking_octomap_server_node[0m
+[35m[1mConsolidate compiler generated dependencies of target color_octomap_server_node[0m
+[35m[1mConsolidate compiler generated dependencies of target octomap_server_static[0m
+[35m[1mConsolidate compiler generated dependencies of target octomap_saver_node[0m
+[  7%] Built target octomap_server_node
+[ 15%] Built target octomap_server_static_node
+[ 23%] Built target color_octomap_server_node
+[ 30%] Built target octomap_server_multilayer_node
+[ 38%] Built target tracking_octomap_server_node
+[ 46%] Built target octomap_saver_node
+[ 53%] Built target octomap_server_static
+[ 57%] [32mBuilding CXX object CMakeFiles/octomap_server.dir/src/octomap_server.cpp.o[0m

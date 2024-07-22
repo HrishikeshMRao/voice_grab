@@ -1,0 +1,38 @@
+[0.035s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/robotiq_2f_85_gripper_visualization': /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/robotiq/robotiq_2f_85_gripper_visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/robotiq_2f_85_gripper_visualization
+[0.047s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.047s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.047s]   CMake.
+[0.047s] 
+[0.048s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.048s]   CMake that the project does not need compatibility with older versions.
+[0.048s] 
+[0.048s] [0m
+[0.054s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.219s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.428s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:41 (if):
+[0.428s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[0.428s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[0.428s]   set the policy and suppress this warning.
+[0.428s] 
+[0.428s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[0.428s]   Since the policy is not set the OLD behavior will be used.
+[0.428s] Call Stack (most recent call first):
+[0.428s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[0.428s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_package.cmake:102 (ament_package)
+[0.428s]   CMakeLists.txt:7 (ament_auto_package)
+[0.428s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.428s] [0m
+[0.428s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:41 (if):
+[0.428s]   if given arguments:
+[0.428s] 
+[0.428s]     "ament_cmake_core" "IN_LIST" "_ARG_EXCLUDE"
+[0.428s] 
+[0.428s]   Unknown arguments specified
+[0.428s] Call Stack (most recent call first):
+[0.429s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[0.429s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_package.cmake:102 (ament_package)
+[0.429s]   CMakeLists.txt:7 (ament_auto_package)
+[0.429s] 
+[0.429s] [0m
+[0.429s] -- Configuring incomplete, errors occurred!
+[0.429s] See also "/home/fiend/voice_grab/ros2_ws/build/robotiq_2f_85_gripper_visualization/CMakeFiles/CMakeOutput.log".

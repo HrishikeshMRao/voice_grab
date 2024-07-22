@@ -1,0 +1,8 @@
+[ 42%] Built target octomap_server_static
+[ 42%] Built target octomap_saver_node
+[ 42%] Built target octomap_server_multilayer_node
+[ 42%] Built target tracking_octomap_server_node
+[ 42%] Built target octomap_server_node
+[ 46%] Built target color_octomap_server_node
+[ 53%] Built target octomap_server_static_node
+[ 57%] [32mBuilding CXX object CMakeFiles/octomap_server.dir/src/octomap_server.cpp.o[0m
