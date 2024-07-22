@@ -260,11 +260,11 @@
               <updateRate>1.0</updateRate>
               <cameraName>realsense_ir</cameraName>
               <imageTopicName>/realsense/color/image_raw</imageTopicName>
-              <cameraInfoTopicName>/realsensecolor/camera_info</cameraInfoTopicName>
+              <cameraInfoTopicName>/realsense/color/camera_info</cameraInfoTopicName>
               <depthImageTopicName>/realsense/depth/image_raw</depthImageTopicName>
               <depthImageInfoTopicName>/realsense/depth/camera_info</depthImageInfoTopicName>
               <pointCloudTopicName>/realsense/depth/points</pointCloudTopicName>
-              <frameName>realsense_link_optical</frameName>
+              <frameName>realsense_depth_optical_frame</frameName>
               <pointCloudCutoff>0.5</pointCloudCutoff>
               <pointCloudCutoffMax>3.0</pointCloudCutoffMax>
               <distortionK1>0.00000001</distortionK1>
@@ -302,6 +302,7 @@
 
         <gazebo reference="world">
         </gazebo>
+
         <gazebo>
           <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
             <parameters>$(find ur_moveit_config)/config/ros2_controllers.yaml</parameters>
