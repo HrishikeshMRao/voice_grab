@@ -1,0 +1,16 @@
+[ 42%] Built target octomap_server_static
+[ 42%] Built target octomap_saver_node
+[ 42%] Built target octomap_server_multilayer_node
+[ 42%] Built target tracking_octomap_server_node
+[ 42%] Built target octomap_server_node
+[ 46%] Built target color_octomap_server_node
+[ 53%] Built target octomap_server_static_node
+[ 57%] [32mBuilding CXX object CMakeFiles/octomap_server.dir/src/octomap_server.cpp.o[0m
+In file included from [01m[K/home/fiend/voice_grab/ros2_ws/src/octomap_mapping/octomap_server/src/octomap_server.cpp:29[m[K:
+[01m[K/home/fiend/voice_grab/ros2_ws/src/octomap_mapping/octomap_server/include/octomap_server/octomap_server.hpp:66:10:[m[K [01;31m[Kfatal error: [m[Koctomap_ros/conversions.hpp: No such file or directory
+   66 | #include [01;31m[K"octomap_ros/conversions.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/octomap_server.dir/build.make:76: CMakeFiles/octomap_server.dir/src/octomap_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/octomap_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target octomap_server_static[0m
+[ 26%] Built target octomap_server_multilayer_node
+[ 26%] Built target octomap_server_node
+[ 26%] Built target octomap_server_static_node
+[ 34%] Built target color_octomap_server_node
+[ 42%] Built target tracking_octomap_server_node
+[ 46%] Built target octomap_saver_node
+[ 53%] Built target octomap_server_static
+[35m[1mConsolidate compiler generated dependencies of target octomap_server[0m
+[ 61%] Built target octomap_server
+[35m[1mConsolidate compiler generated dependencies of target octomap_server_multilayer[0m
+[ 73%] Built target octomap_server_multilayer
+[35m[1mConsolidate compiler generated dependencies of target tracking_octomap_server[0m
+[ 84%] Built target tracking_octomap_server
+[35m[1mConsolidate compiler generated dependencies of target color_octomap_server[0m
+[ 92%] Built target color_octomap_server
+[35m[1mConsolidate compiler generated dependencies of target octomap_saver[0m
+[100%] Built target octomap_saver

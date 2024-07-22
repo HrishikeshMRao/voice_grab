@@ -1,0 +1,185 @@
+[0.033s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/octomap_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fiend/ws_moveit2/install/moveit_configs_utils:/home/fiend/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/octomap_mapping/octomap_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/octomap_server
+[0.095s] -- The C compiler identification is GNU 11.4.0
+[0.149s] -- The CXX compiler identification is GNU 11.4.0
+[0.155s] -- Detecting C compiler ABI info
+[0.233s] -- Detecting C compiler ABI info - done
+[0.241s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.241s] -- Detecting C compile features
+[0.242s] -- Detecting C compile features - done
+[0.245s] -- Detecting CXX compiler ABI info
+[0.348s] -- Detecting CXX compiler ABI info - done
+[0.354s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.354s] -- Detecting CXX compile features
+[0.354s] -- Detecting CXX compile features - done
+[0.371s] -- Checking for module 'eigen3'
+[0.391s] --   Found eigen3, version 3.4.0
+[0.431s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.432s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.471s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.490s] -- Checking for module 'flann'
+[0.508s] --   Found flann, version 1.9.1
+[0.565s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.565s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.592s] -- Looking for pthread.h
+[0.692s] -- Looking for pthread.h - found
+[0.692s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.787s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.787s] -- Found Threads: TRUE  
+[0.789s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.798s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.961s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.961s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.964s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.974s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.990s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.000s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.134s] -- Found X11: /usr/include   
+[1.134s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.230s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.230s] -- Looking for gethostbyname
+[1.333s] -- Looking for gethostbyname - found
+[1.333s] -- Looking for connect
+[1.425s] -- Looking for connect - found
+[1.425s] -- Looking for remove
+[1.532s] -- Looking for remove - found
+[1.532s] -- Looking for shmat
+[1.628s] -- Looking for shmat - found
+[1.628s] -- Looking for IceConnectionNumber in ICE
+[1.720s] -- Looking for IceConnectionNumber in ICE - found
+[1.833s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.835s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.837s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.839s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.850s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.856s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.860s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.864s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.983s] -- Checking for module 'libusb-1.0'
+[2.008s] --   Found libusb-1.0, version 1.0.25
+[2.059s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.060s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.060s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.140s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.140s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.140s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.298s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.304s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.310s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.468s] -- Found Qhull version 8.0.2
+[2.620s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.771s] -- looking for PCL_COMMON
+[2.772s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.772s] -- looking for PCL_KDTREE
+[2.773s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.773s] -- looking for PCL_OCTREE
+[2.774s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.774s] -- looking for PCL_SEARCH
+[2.775s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.775s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.775s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.775s] -- looking for PCL_FILTERS
+[2.776s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.776s] -- looking for PCL_2D
+[2.776s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.777s] -- looking for PCL_GEOMETRY
+[2.777s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.777s] -- looking for PCL_IO
+[2.777s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.777s] -- looking for PCL_FEATURES
+[2.778s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.778s] -- looking for PCL_ML
+[2.779s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.779s] -- looking for PCL_SEGMENTATION
+[2.780s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.780s] -- looking for PCL_VISUALIZATION
+[2.780s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.780s] -- looking for PCL_SURFACE
+[2.781s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.781s] -- looking for PCL_REGISTRATION
+[2.782s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.782s] -- looking for PCL_KEYPOINTS
+[2.782s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.783s] -- looking for PCL_TRACKING
+[2.783s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.783s] -- looking for PCL_RECOGNITION
+[2.784s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.784s] -- looking for PCL_STEREO
+[2.785s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.785s] -- looking for PCL_APPS
+[2.786s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.786s] -- looking for PCL_IN_HAND_SCANNER
+[2.786s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.786s] -- looking for PCL_MODELER
+[2.787s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.787s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.787s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.787s] -- looking for PCL_OUTOFCORE
+[2.788s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.788s] -- looking for PCL_PEOPLE
+[2.788s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.789s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[2.794s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.962s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.021s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.216s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.226s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.239s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.508s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.515s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.663s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.696s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.765s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.686s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.687s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.687s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.348s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.402s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.404s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.405s] -- Configured cppcheck include dirs: /home/fiend/voice_grab/ros2_ws/src/octomap_mapping/octomap_server/include
+[5.405s] -- Configured cppcheck exclude dirs and/or files: 
+[5.407s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.407s] -- Configured cpplint exclude dirs and/or files: 
+[5.408s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.409s] -- Added test 'lint_cmake' to check CMake code style
+[5.410s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.412s] -- Added test 'uncrustify' to check C / C++ code style
+[5.412s] -- Configured uncrustify additional arguments: 
+[5.412s] -- Added test 'xmllint' to check XML markup files
+[5.416s] -- Configuring done
+[5.557s] -- Generating done
+[5.560s] -- Build files have been written to: /home/fiend/voice_grab/ros2_ws/build/octomap_server
+[5.583s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/octomap_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fiend/ws_moveit2/install/moveit_configs_utils:/home/fiend/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/fiend/voice_grab/ros2_ws/src/octomap_mapping/octomap_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fiend/voice_grab/ros2_ws/install/octomap_server
+[5.586s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/octomap_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fiend/ws_moveit2/install/moveit_configs_utils:/home/fiend/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/octomap_server -- -j20 -l20
+[5.673s] [ 15%] [32mBuilding CXX object CMakeFiles/octomap_server_node.dir/rclcpp_components/node_main_octomap_server_node.cpp.o[0m
+[5.673s] [ 15%] [32mBuilding CXX object CMakeFiles/color_octomap_server_node.dir/rclcpp_components/node_main_color_octomap_server_node.cpp.o[0m
+[5.673s] [ 26%] [32mBuilding CXX object CMakeFiles/octomap_server_multilayer_node.dir/rclcpp_components/node_main_octomap_server_multilayer_node.cpp.o[0m
+[5.673s] [ 26%] [32mBuilding CXX object CMakeFiles/octomap_saver_node.dir/rclcpp_components/node_main_octomap_saver_node.cpp.o[0m
+[5.673s] [ 26%] [32mBuilding CXX object CMakeFiles/octomap_server_static_node.dir/rclcpp_components/node_main_octomap_server_static_node.cpp.o[0m
+[5.673s] [ 26%] [32mBuilding CXX object CMakeFiles/tracking_octomap_server_node.dir/rclcpp_components/node_main_tracking_octomap_server_node.cpp.o[0m
+[5.673s] [ 26%] [32mBuilding CXX object CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o[0m
+[8.529s] [ 30%] [32m[1mLinking CXX executable color_octomap_server_node[0m
+[8.533s] [ 34%] [32m[1mLinking CXX executable octomap_server_multilayer_node[0m
+[8.541s] [ 38%] [32m[1mLinking CXX executable tracking_octomap_server_node[0m
+[8.546s] [ 42%] [32m[1mLinking CXX executable octomap_server_static_node[0m
+[8.560s] [ 46%] [32m[1mLinking CXX executable octomap_server_node[0m
+[8.563s] [ 50%] [32m[1mLinking CXX executable octomap_saver_node[0m
+[8.697s] [ 50%] Built target color_octomap_server_node
+[8.699s] [ 50%] Built target tracking_octomap_server_node
+[8.701s] [ 50%] Built target octomap_server_multilayer_node
+[8.704s] [ 50%] Built target octomap_server_static_node
+[8.715s] [ 50%] Built target octomap_server_node
+[8.719s] [ 50%] Built target octomap_saver_node
+[9.389s] [ 53%] [32m[1mLinking CXX shared library liboctomap_server_static.so[0m
+[9.770s] [ 53%] Built target octomap_server_static
+[9.804s] [ 57%] [32mBuilding CXX object CMakeFiles/octomap_server.dir/src/octomap_server.cpp.o[0m
+[11.139s] In file included from [01m[K/home/fiend/voice_grab/ros2_ws/src/octomap_mapping/octomap_server/src/octomap_server.cpp:29[m[K:
+[11.139s] [01m[K/home/fiend/voice_grab/ros2_ws/src/octomap_mapping/octomap_server/include/octomap_server/octomap_server.hpp:54:10:[m[K [01;31m[Kfatal error: [m[Kpcl_ros/transforms.hpp: No such file or directory
+[11.139s]    54 | #include [01;31m[K"pcl_ros/transforms.hpp"[m[K
+[11.139s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.139s] compilation terminated.
+[11.151s] gmake[2]: *** [CMakeFiles/octomap_server.dir/build.make:76: CMakeFiles/octomap_server.dir/src/octomap_server.cpp.o] Error 1
+[11.151s] gmake[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/octomap_server.dir/all] Error 2
+[11.152s] gmake: *** [Makefile:146: all] Error 2
+[11.154s] Invoked command in '/home/fiend/voice_grab/ros2_ws/build/octomap_server' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fiend/ws_moveit2/install/moveit_configs_utils:/home/fiend/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/octomap_server -- -j20 -l20

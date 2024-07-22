@@ -1,0 +1,1 @@
+/home/fiend/voice_grab/ros2_ws/src/voice_grabber/py_scripts/Vosk.py

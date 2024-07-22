@@ -1,0 +1,8 @@
+Built target ament_cmake_python_symlink_octomap
+running egg_info
+writing octomap.egg-info/PKG-INFO
+writing dependency_links to octomap.egg-info/dependency_links.txt
+writing top-level names to octomap.egg-info/top_level.txt
+reading manifest file 'octomap.egg-info/SOURCES.txt'
+writing manifest file 'octomap.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_octomap_egg

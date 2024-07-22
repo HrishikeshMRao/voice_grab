@@ -1,0 +1,15 @@
+/home/fiend/voice_grab/ros2_ws/install/robotiq/share/ament_index/resource_index/package_run_dependencies/robotiq
+/home/fiend/voice_grab/ros2_ws/install/robotiq/share/ament_index/resource_index/parent_prefix_path/robotiq
+/home/fiend/voice_grab/ros2_ws/install/robotiq/share/robotiq/environment/ament_prefix_path.sh
+/home/fiend/voice_grab/ros2_ws/install/robotiq/share/robotiq/environment/ament_prefix_path.dsv
+/home/fiend/voice_grab/ros2_ws/install/robotiq/share/robotiq/environment/path.sh
+/home/fiend/voice_grab/ros2_ws/install/robotiq/share/robotiq/environment/path.dsv
+/home/fiend/voice_grab/ros2_ws/install/robotiq/share/robotiq/local_setup.bash
+/home/fiend/voice_grab/ros2_ws/install/robotiq/share/robotiq/local_setup.sh
+/home/fiend/voice_grab/ros2_ws/install/robotiq/share/robotiq/local_setup.zsh
+/home/fiend/voice_grab/ros2_ws/install/robotiq/share/robotiq/local_setup.dsv
+/home/fiend/voice_grab/ros2_ws/install/robotiq/share/robotiq/package.dsv
+/home/fiend/voice_grab/ros2_ws/install/robotiq/share/ament_index/resource_index/packages/robotiq
+/home/fiend/voice_grab/ros2_ws/install/robotiq/share/robotiq/cmake/robotiqConfig.cmake
+/home/fiend/voice_grab/ros2_ws/install/robotiq/share/robotiq/cmake/robotiqConfig-version.cmake
+/home/fiend/voice_grab/ros2_ws/install/robotiq/share/robotiq/package.xml

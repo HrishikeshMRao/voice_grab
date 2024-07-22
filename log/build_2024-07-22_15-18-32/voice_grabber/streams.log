@@ -1,0 +1,10 @@
+[0.032s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/voice_grabber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fiend/ws_moveit2/install/moveit_configs_utils:/home/fiend/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/voice_grabber -- -j20 -l20
+[0.114s] [100%] Built target mtc_node
+[0.114s] [100%] Built target ament_cmake_python_symlink_voice_grabber
+[0.322s] running egg_info
+[0.323s] writing voice_grabber.egg-info/PKG-INFO
+[0.323s] writing dependency_links to voice_grabber.egg-info/dependency_links.txt
+[0.324s] writing top-level names to voice_grabber.egg-info/top_level.txt
+[0.325s] reading manifest file 'voice_grabber.egg-info/SOURCES.txt'
+[0.326s] writing manifest file 'voice_grabber.egg-info/SOURCES.txt'
+[0.354s] [100%] Built target ament_cmake_python_build_voice_grabber_egg
