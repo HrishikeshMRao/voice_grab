@@ -1,1 +1,0 @@
-/home/fiend/voice_grab/ros2_ws/src/voice_grabber/launch/launch_aud.launch.py

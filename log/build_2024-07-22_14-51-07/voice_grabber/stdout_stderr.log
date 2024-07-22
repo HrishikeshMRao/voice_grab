@@ -1,9 +1,0 @@
-[ 50%] Built target ament_cmake_python_symlink_voice_grabber
-[100%] Built target mtc_node
-running egg_info
-writing voice_grabber.egg-info/PKG-INFO
-writing dependency_links to voice_grabber.egg-info/dependency_links.txt
-writing top-level names to voice_grabber.egg-info/top_level.txt
-reading manifest file 'voice_grabber.egg-info/SOURCES.txt'
-writing manifest file 'voice_grabber.egg-info/SOURCES.txt'
-[100%] Built target ament_cmake_python_build_voice_grabber_egg

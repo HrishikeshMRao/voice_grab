@@ -1,1 +1,0 @@
-/home/fiend/voice_grab/ros2_ws/src/ur_moveit_config/launch/move_group.launch.py
