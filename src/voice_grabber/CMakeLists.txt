@@ -13,10 +13,10 @@ find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
+find_package(moveit_task_constructor_core REQUIRED)
 find_package(std_msgs)  
 find_package(sensor_msgs)
 find_package(audio_common_msgs REQUIRED)
-find_package(portaudio REQUIRED)
 find_package(PythonInterp REQUIRED)
 
 # uncomment the following section in order to fill in
@@ -26,31 +26,22 @@ include_directories(include)
 include_directories("${PROJECT_SOURCE_DIR}")
 include_directories(${PORTAUDIO_INCLUDE_DIRS})
 
-# C++ executables
-set(SOURCES2 /home/fiend/voice_grab/ros2_ws/src/voice_grabber/src/SpeechListner.cpp)
-set(SOURCES3 /home/fiend/voice_grab/ros2_ws/src/voice_grabber/src/TextDisplay.cpp)
-
-add_executable(Speech_Listner_Node ${SOURCES2})
-ament_target_dependencies(Speech_Listner_Node rclcpp std_msgs sensor_msgs audio_common_msgs)
-target_include_directories(Speech_Listner_Node PRIVATE /opt/portaudio/src/common/)
-target_link_libraries(Speech_Listner_Node portaudio)
-
-add_executable(Text_Display_Node ${SOURCES3})
-ament_target_dependencies(Text_Display_Node rclcpp std_msgs sensor_msgs audio_common_msgs)
-target_link_libraries(Text_Display_Node)
-
-install(DIRECTORY 
-    launch
-    DESTINATION share/${PROJECT_NAME}
-)
-
-install(TARGETS
-    Speech_Listner_Node Text_Display_Node
-    DESTINATION lib/${PROJECT_NAME}
+add_executable(mtc_node src/mtc_node.cpp)
+target_include_directories(mtc_node PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_compile_features(mtc_node PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+ament_target_dependencies(
+  mtc_node
+  "moveit_task_constructor_core"
+  "rclcpp"
 )
 
 # Python Executables
 ament_python_install_package(${PROJECT_NAME})
+
+install(TARGETS mtc_node
+  DESTINATION lib/${PROJECT_NAME})
 
 install(PROGRAMS
     py_scripts/Vosk.py
@@ -68,5 +59,10 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+
+install(DIRECTORY 
+    launch
+    DESTINATION share/${PROJECT_NAME}
+)
 
 ament_package()

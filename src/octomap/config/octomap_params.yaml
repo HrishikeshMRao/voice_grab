@@ -1,0 +1,4 @@
+octomap_server:
+  ros__parameters:
+    octomap_path: "/home/fiend/voice_grab/ros2_ws/install/octomap/share/octomap/map/med_octomap.bt"
+    frame_id: "world"

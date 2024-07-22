@@ -7,10 +7,16 @@
             },
             "includePath": [
                 "/opt/ros/humble/include/**",
-                "/home/fiend/voice_grab/ros2_ws/src/ur_robotiq/ur_robotiq_description/include/**",
-                "/home/fiend/voice_grab/ros2_ws/src/voice_grabber/include/**",
+                "/home/fiend/voice_grab/ros2_ws/src/voice_grabber/include/voice_grabber/**",
+                "/home/fiend/ws_moveit/install/**",
                 "/usr/include/**",
-                "/usr/local/include/audio_common_msgs"
+                "/usr/local/include/audio_common_msgs",
+                "/opt/ros/humble/include",
+                "/opt/ros/humble/include/urdf",
+                "/opt/ros/humble/include/urdfdom_headers",
+                "/opt/ros/humble/include/moveit_msgs",
+                "/usr/include/eigen3",
+                "/opt/ros/humble/include/geometry_msgs"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",
