@@ -1,9 +1,0 @@
-[0.053s] Invoking command in '/home/fiend/voice_grab/ros2_ws/build/octomap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fiend/ws_moveit2/install/moveit_configs_utils:/home/fiend/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fiend/voice_grab/ros2_ws/build/octomap -- -j20 -l20
-[0.130s] Built target ament_cmake_python_symlink_octomap
-[0.338s] running egg_info
-[0.338s] writing octomap.egg-info/PKG-INFO
-[0.339s] writing dependency_links to octomap.egg-info/dependency_links.txt
-[0.339s] writing top-level names to octomap.egg-info/top_level.txt
-[0.341s] reading manifest file 'octomap.egg-info/SOURCES.txt'
-[0.341s] writing manifest file 'octomap.egg-info/SOURCES.txt'
-[0.370s] Built target ament_cmake_python_build_octomap_egg
