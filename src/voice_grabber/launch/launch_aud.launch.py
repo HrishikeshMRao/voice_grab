@@ -2,12 +2,30 @@ import os
 
 from ament_index_python import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription
+from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 
 def generate_launch_description():
     
+    declared_arguments = []
+    # UR specific arguments
+    declared_arguments.append(
+        DeclareLaunchArgument(
+            "ur_type",
+            description="Type/series of used UR robot.",
+            choices=["ur3", "ur3e", "ur5", "ur5e", "ur10", "ur10e", "ur16e", "ur20", "ur30"],
+        )
+    )
+
+    declared_arguments.append(
+        DeclareLaunchArgument(
+            "gripper_type",
+            description="Type/series of used UR robot.",
+            choices=["85", "140"],
+        )
+    )
+
     gazebo_launch_path = os.path.join(
         get_package_share_directory('ur_description'),
         'launch',
@@ -29,7 +47,6 @@ def generate_launch_description():
     return LaunchDescription([
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(gazebo_launch_path),
-            launch_arguments={"ur_type": "ur5e"}.items()
         ),
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(MoveGroup_launch_path),
