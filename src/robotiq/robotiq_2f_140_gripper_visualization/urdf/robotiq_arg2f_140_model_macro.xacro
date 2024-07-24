@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
   <xacro:include filename="$(find robotiq_2f_140_gripper_visualization)/urdf/robotiq_arg2f_transmission.xacro" />
+  <xacro:include filename="$(find robotiq_2f_140_gripper_visualization)/urdf/robotiq_arg2f.xacro" />
 
   <xacro:macro name="outer_knuckle" params="prefix fingerprefix stroke">
     <link name="${prefix}${fingerprefix}_outer_knuckle">
@@ -150,6 +151,7 @@
     </link>
   </xacro:macro>
 
+
   <xacro:macro name="outer_finger_joint" params="prefix fingerprefix">
     <joint name="${prefix}${fingerprefix}_outer_finger_joint" type="fixed">
       <origin xyz="0 0.01821998610742 0.0260018192872234" rpy="0 0 0" />
@@ -190,8 +192,6 @@
     </joint>
   </xacro:macro>
 
-  <xacro:include filename="$(find robotiq_2f_140_gripper_visualization)/urdf/robotiq_arg2f.xacro" />
-
   <xacro:macro name="finger_joint" params="prefix">
     <joint name="${prefix}finger_joint" type="revolute">
       <origin xyz="0 -0.030601 0.054905" rpy="${pi / 2 + .725} 0 0" />
@@ -225,13 +225,13 @@
 
   <xacro:macro name="robotiq_arg2f_140" params="prefix parent">
     <xacro:robotiq_arg2f_base_link prefix="${prefix}"/>
-    <xacro:finger_links prefix="${prefix}" fingerprefix="left" stroke="85"/>
-    <xacro:finger_links prefix="${prefix}" fingerprefix="right" stroke="85"/>
+    <xacro:finger_links prefix="${prefix}" fingerprefix="left" stroke="140"/>
+    <xacro:finger_links prefix="${prefix}" fingerprefix="right" stroke="140"/>
     <xacro:finger_joint prefix="${prefix}"/>
     <xacro:right_outer_knuckle_joint prefix="${prefix}"/>
     <xacro:robotiq_arg2f_transmission prefix="${prefix}"/>
-    <xacro:world_joint prefix="${prefix} ${parent}"/>
-      <origin xyz="0 0 0" rpy="0 0 0" />
+    <xacro:world_joint prefix="${prefix}" parent="${parent}">
+      <origin xyz="0 0 0" rpy="0 0 ${pi/2}" />
     </xacro:world_joint>
   </xacro:macro>
 </robot>
