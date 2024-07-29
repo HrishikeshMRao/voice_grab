@@ -1,1 +1,0 @@
-/home/fiend/voice_grab/ros2_ws/build/robotiq_moveit_config/ament_cmake_core/robotiq_moveit_configConfig.cmake
