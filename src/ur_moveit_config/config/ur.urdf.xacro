@@ -3,7 +3,7 @@
     <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
 
     <!-- Import ur urdf file -->
-    <xacro:include filename="$(find ur_moveit_config)/config/ur5.urdf" />
+    <xacro:include filename="ur5.urdf" />
 
     <!-- Import control_xacro -->
     <xacro:include filename="ur.gazebo_control.xacro" />
